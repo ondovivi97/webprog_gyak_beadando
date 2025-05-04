@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Japán Gasztronómia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .image-row img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="text-center bg-light py-3">
+        <a href="index.html">Főoldal</a>
+        <a href="latnivalok.html">Látnivalók</a>
+        <a href="gasztronomia.html">Gasztronómia</a>
+        <a href="kultura.html">Kultúra</a>
+        <a href="kapcsolat.html">Kapcsolat</a>
+    </nav>
+    <header>
+        <h1>Japán Gasztronómia</h1>
+        <p>Ízek, amelyek meghódították a világot</p>
+    </header>
+    <br>
+    <br>
+    <br>
+
+    <div class="image-row">
+        <img src="./images/sushi.jpg" alt="Sushi">
+        <img src="./images/ramen.jpg" alt="Ramen">
+        <img src="./images/tempura.jpg" alt="Tempura">
+    </div>
+    <section>
+        <h2>Népszerű Japán Ételek</h2>
+        <p>A japán konyha nem csak sushi - bár az is világszerte népszerű. Az ország minden régiójának megvannak a saját
+            specialitásai, amelyek tükrözik a helyi kultúrát és alapanyagokat. A következő táblázatban láthatóak a japánok legnépszerűbb ételei.</p>
+
+        
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-danger">
+                    <tr>
+                        <th>#</th>
+                        <th>Étel neve</th>
+                        <th>Típus</th>
+                        <th>Régió</th>
+                        <th>Fő összetevők</th>
+                        <th>Átlagos ár (JPY)</th>
+                        <th>Népszerűség (1-5)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <!-- Táblázat -->
+                    <tr>
+                        <td>1</td>
+                        <td>Sushi</td>
+                        <td>Főétel</td>
+                        <td>Tokió</td>
+                        <td>Hal, rizs, nori</td>
+                        <td>1500</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ramen</td>
+                        <td>Leves</td>
+                        <td>Fukuoka</td>
+                        <td>Tészta, húsleves, sertéshús</td>
+                        <td>1000</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Tempura</td>
+                        <td>Sült</td>
+                        <td>Kiotó</td>
+                        <td>Zöldség, tenger gyümölcsei</td>
+                        <td>1300</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Okonomiyaki</td>
+                        <td>Lepény</td>
+                        <td>Osaka</td>
+                        <td>Káposzta, liszt, tojás</td>
+                        <td>900</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Miso leves</td>
+                        <td>Leves</td>
+                        <td>Országszerte</td>
+                        <td>Miso paszta, tofu, algák</td>
+                        <td>400</td>
+                        <td>4</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>6</td>
+                        <td>Soba</td>
+                        <td>Tészta</td>
+                        <td>Nagano</td>
+                        <td>Buckwheat tészta, szójaszósz</td>
+                        <td>700</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Udon</td>
+                        <td>Tészta</td>
+                        <td>Kagawa</td>
+                        <td>Búzatészta, hús, dashi</td>
+                        <td>800</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Takoyaki</td>
+                        <td>Snack</td>
+                        <td>Osaka</td>
+                        <td>Polip, tészta, szójaszósz</td>
+                        <td>500</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Unagi</td>
+                        <td>Főétel</td>
+                        <td>Shizuoka</td>
+                        <td>Angolna, szójaszósz</td>
+                        <td>2000</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Tonkatsu</td>
+                        <td>Sült</td>
+                        <td>Nagoya</td>
+                        <td>Sertéshús, panír</td>
+                        <td>1200</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Onigiri</td>
+                        <td>Snack</td>
+                        <td>Országszerte</td>
+                        <td>Rizs, algalap, töltelék</td>
+                        <td>300</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Yakisoba</td>
+                        <td>Tészta</td>
+                        <td>Tokió</td>
+                        <td>Sült tészta, zöldségek, hús</td>
+                        <td>850</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Kare Raisu</td>
+                        <td>Főétel</td>
+                        <td>Országszerte</td>
+                        <td>Curry, rizs, hús</td>
+                        <td>950</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Gyudon</td>
+                        <td>Főétel</td>
+                        <td>Tokió</td>
+                        <td>Marhahús, rizs</td>
+                        <td>600</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Shabu-shabu</td>
+                        <td>Főétel</td>
+                        <td>Osaka</td>
+                        <td>Vékony hús, főzővíz, zöldségek</td>
+                        <td>2500</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Chawanmushi</td>
+                        <td>Előétel</td>
+                        <td>Kiotó</td>
+                        <td>Tojás, shiitake, garnéla</td>
+                        <td>600</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Matcha desszert</td>
+                        <td>Desszert</td>
+                        <td>Kiotó</td>
+                        <td>Matcha, tej, cukor</td>
+                        <td>700</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Mochi</td>
+                        <td>Desszert</td>
+                        <td>Nara</td>
+                        <td>Rizstészta, babkrém</td>
+                        <td>500</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>Yakitori</td>
+                        <td>Snack</td>
+                        <td>Országszerte</td>
+                        <td>Csirkehús, nyárs, szójaszósz</td>
+                        <td>600</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Tamagoyaki</td>
+                        <td>Tojásétel</td>
+                        <td>Tokió</td>
+                        <td>Tojás, szójaszósz, cukor</td>
+                        <td>400</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>Gyoza</td>
+                        <td>Sült</td>
+                        <td>Fukuoka</td>
+                        <td>Hússal töltött batyu</td>
+                        <td>650</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>Korokke</td>
+                        <td>Sült</td>
+                        <td>Osaka</td>
+                        <td>Krumpli, hús, panír</td>
+                        <td>500</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>Chashu</td>
+                        <td>Hús</td>
+                        <td>Országszerte</td>
+                        <td>Párolt sertés</td>
+                        <td>1000</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>Zaru Soba</td>
+                        <td>Tészta</td>
+                        <td>Nagano</td>
+                        <td>Hideg soba, szójaszósz</td>
+                        <td>750</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>Hiyayakko</td>
+                        <td>Előétel</td>
+                        <td>Kiotó</td>
+                        <td>Hideg tofu, gyömbér, szójaszósz</td>
+                        <td>350</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>Érdekességek Japánról</p>
+    </footer>
+
+</body>
+
+</html>
